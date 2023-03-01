@@ -1,0 +1,33 @@
+{
+  "name": "@yy/pb-2-js",
+  "version": "0.0.3",
+  "description": "pb 文件转js/ts/.d.ts，支持输入git链接转换",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "pb": "npm publish --registry=https://npm-registry.duowan.com"
+  },
+  "bin": {
+    "pb-2-js": "bin/index.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://git.duowan.com/webs/component-base/pb-2-js"
+  },
+  "keywords": [
+    "sdk"
+  ],
+  "author": "wuwei3@joyy.com",
+  "license": "ISC",
+  "dependencies": {
+    "@gitbeaker/node": "^35.8.0",
+    "commander": "^10.0.0",
+    "inquirer": "^9.1.4",
+    "protobufjs": "^7.2.0",
+    "protobufjs-cli": "^1.1.1",
+    "shelljs": "^0.8.5"
+  }
+}
